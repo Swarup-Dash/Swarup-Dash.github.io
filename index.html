@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swarup_Portfolio😊</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c9a18b0583.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="images/first.png" class="logo"> -->
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#">Education</a></li> -->
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="second">
+          <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hii, I'm <span class="typing-text">Swarup Dash</span></h1>
+
+            <a href="https://leetcode.com/u/Swarup_Dash/" target="_blank" class="btn">Let's Code...</a>
+
+          </div>
+          <div id="pics">
+            <div id="back"><img src="images/paint.png" alt="My_Image" /></div>
+            <div id="front"><img src="images/first.png" alt="My_Image" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/About.png"/>
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Recent graduate with a Master's degree in Computer Science. Eager
+              to start my career as a full-stack engineer, with a strong
+              foundation in development and a passion for creating innovative,
+              user-focused solutions. Skilled in front-end and back-end
+              technologies, with the ability to build responsive web
+              applications. Quick learner, excellent problem-solver, and
+              effective communicator ready to join dynamic development teams and
+              help drive projects to success.
+            </p>
+            <div class="tab-titles">
+              <div class="tab-links active-link" onClick="opentab('skills')">
+                Skills
+              </div>
+              <!-- <div class="tab-links">Experience</div> -->
+              <div class="tab-links" onClick="opentab('education')">
+                Education
+              </div>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Python, Django</span></li>
+                <li><span>Java, MySql, DBMS</span></li>
+                <li><span>HTML, CSS, JavaScript</span></li>
+                <li><span>React Js, TailwindCss</span></li>
+                <li><span>Git, GitHub, Postman</span></li>
+
+              </ul>
+            </div>
+
+            <div class="tab-contents" , id="education">
+              <ul>
+                <li>
+                  <span>2022 - 2024</span><br />MCA from GIET, Bhubaneswar<br />CGPA:
+                  9.0
+                </li>
+                <li>
+                  <span>2019 - 2022</span><br />BSc from Utkal Univercity,
+                  Bhubaneswar<br />CGPA: 8.70
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----Projects----- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Iris.jpg" />
+            <div class="layer">
+              <h3>Iris Flower</h3>
+              <p>
+                This project aims to classify different species of iris flowers using
+                Machine Learning techniques by leveraging the iris dataset to
+                predict the species of new iris samples. The Python 3.6.0, Anaconda 4.3.0
+                environment and scikit-learn 0.18.1 library were utilized for implementation.
+              </p>
+              <a href="https://github.com/Swarup-Dash/Iris-Flower" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Emp.png" />
+            <div class="layer">
+              <h3>Employee Management System</h3>
+              <p>
+                Developed an Employee Management System using Python, Django, and SQLite3.
+                The web application allows for adding, deleting, and updating employee records,
+                includes user authentication.
+              </p>
+              <a href="https://github.com/Swarup-Dash/Employee_Management_System" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Food.jpg" />
+            <div class="layer">
+              <h3>Food Delivery Website</h3>
+              <p> Developed a food delivery application using MERN, providing users with a 
+            seamless ordering experience. Allow users to sign up and log in securely to their 
+            accounts.
+              </p>
+              <a href="https://github.com/Swarup-Dash/Food_Delivery_Website" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Netflix.JPG" />
+            <div class="layer">
+              <h3>Netflix Clone</h3>
+              <p>
+                The Netflix clone project using HTML and CSS aims to replicate 
+                the user interface of the popular streaming platform Netflix. 
+                This project is designed to provide a simplified, static representation of 
+                Netflix's front-end layout, focusing on key visual elements and responsive design.
+              </p>
+              <a href="https://github.com/Swarup-Dash/Bharat_Intern_NetFlix_Task3" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- <div class="work">
+                <img src="images/background_img.jpg">
+            </div>  -->
+        </div>
+        <a href="https://github.com/Swarup-Dash" target="_blank" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- ----Contact---- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> swarupdash7205@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 8327745461</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/swarup-dash-sde/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/_itz_swarup/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/swarup.dash.794" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://maps.app.goo.gl/16roM6H3o5uHiFJi6" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+            </div>
+            <a href="images/Swarup_Dash.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                row="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button types="submit" class="btn btn2">Submit</button>
+            </form>
+
+            <span id="msg"></span>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright <i class="fa-regular fa-copyright"></i> Swarup. Made with
+            <i class="fa-regular fa-heart"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbw939ocVfqq-tmrFZq47tFIyMeL3YhXqd7PABtaY0SqCpT6Tw4eRJCGYo309sO4c7E/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
