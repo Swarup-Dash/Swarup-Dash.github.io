@@ -537,6 +537,9 @@ nav .fa-solid{
     }
     .about-col-1{
         margin-bottom: 30px;
+        background-color: #00274f;
+        border-radius: 50%;
+        overflow: hidden;
     }
     .about-col-2{
         font-size: 14px;
