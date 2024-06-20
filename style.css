@@ -236,8 +236,10 @@ nav ul li a:hover::after{
 }
 
 .about-col-2 p {
-    color: #5e5c5c;
+    color: #ad9b9b;
     font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
 }
 
 #education li{
@@ -538,8 +540,8 @@ nav .fa-solid{
     .about-col-1{
         margin-bottom: 30px;
         background-color: #00274f;
-        border-radius: 50%;
-        overflow: hidden;
+        border: none;
+        border-radius: 20%;
     }
     .about-col-2{
         font-size: 14px;
